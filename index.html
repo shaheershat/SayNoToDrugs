@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,45 +8,45 @@
     <link rel="icon" href="assets/images/SAY NO TO DRUGS.png" type="image/x-icon" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+
+<body class="font-sans bg-gray-50">
+
     <!-- Header Section -->
     <header class="bg-white shadow fixed top-0 left-0 w-full z-50">
         <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 class="text-2xl font-bold text-red-600">Say No to Drugs</h1>
-          
-          <!-- Hamburger Icon (Mobile) -->
-          <div class="md:hidden">
-            <button id="menu-btn" class="text-gray-700 focus:outline-none text-2xl">
-              &#9776;
-            </button>
-          </div>
-      
-          <!-- Navigation Links -->
-          <nav id="menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent px-4 md:px-0 py-4 md:py-0 shadow md:shadow-none z-40">
-            <a href="index.html" class="text-gray-700 hover:text-red-500">Home</a>
-            <a href="about.html" class="text-gray-700 hover:text-red-500">About</a>
-            <a href="stories.html" class="text-gray-700 hover:text-red-500">Stories</a>
-            <a href="help.html" class="text-gray-700 hover:text-red-500">Help</a>
-            <a href="contact.html" class="text-gray-700 hover:text-red-500">Contact</a>
-          </nav>
+            <h1 class="text-2xl font-bold text-red-600">Say No to Drugs</h1>
+
+            <!-- Hamburger Icon (Mobile) -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-700 focus:outline-none text-2xl">
+                    &#9776;
+                </button>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav id="menu" class="hidden md:flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 absolute md:static top-16 left-0 w-full md:w-auto bg-white md:bg-transparent px-4 md:px-0 py-4 md:py-0 shadow md:shadow-none z-40">
+                <a href="index.html" class="text-gray-700 hover:text-red-500">Home</a>
+                <a href="about.html" class="text-gray-700 hover:text-red-500">About</a>
+                <a href="stories.html" class="text-gray-700 hover:text-red-500">Stories</a>
+                <a href="help.html" class="text-gray-700 hover:text-red-500">Help</a>
+                <a href="contact.html" class="text-gray-700 hover:text-red-500">Contact</a>
+            </nav>
         </div>
-      </header>
-    
+    </header>
+
     <!-- Hero Section (Banner) -->
     <section class="relative w-full h-screen overflow-hidden" id="bannerSection">
-        <img src="assets/images/pexels-mart-production-7230265.jpg" 
-             alt="Say No to Drugs Banner" 
-             class="w-full h-full object-cover" />
-        
+        <img src="assets/images/pexels-mart-production-7230265.jpg" alt="Say No to Drugs Banner"
+            class="w-full h-full object-cover" />
+
         <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
             <h2 class="text-4xl md:text-5xl font-bold mb-4 text-red-600">Say No to Drugs</h2>
             <p class="text-lg md:text-xl max-w-2xl">Protect your future. Protect your life. Stand against substance abuse.</p>
         </div>
-        
+
         <!-- Hover Preview Image -->
-        <img src="assets/images/SAY NO TO DRUGS.png" 
-             id="hoverPreview"
-             class="hidden lg:block w-20 h-20 object-cover absolute z-50 pointer-events-none transition-opacity duration-300 opacity-0" />
+        <img src="assets/images/SAY NO TO DRUGS.png" id="hoverPreview"
+            class="hidden lg:block w-20 h-20 object-cover absolute z-50 pointer-events-none transition-opacity duration-300 opacity-0" />
     </section>
 
     <!-- About Section -->
@@ -93,4 +94,5 @@
     <!-- External Script -->
     <script src="assets/js/BannerHover.js"></script>
 </body>
+
 </html>
