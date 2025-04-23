@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say No To Drugs</title>
+    <link rel="icon" href="assets/images/SAY NO TO DRUGS.png" type="image/x-icon" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-white shadow fixed top-0 left-0 w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-red-600">Say No to Drugs</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="text-gray-700 hover:text-red-500">Home</a>
+                <a href="about.html" class="text-gray-700 hover:text-red-500">About</a>
+                <a href="stories.html" class="text-gray-700 hover:text-red-500">Stories</a>
+                <a href="help.html" class="text-gray-700 hover:text-red-500">Help</a>
+                <a href="contact.html" class="text-gray-700 hover:text-red-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section (Banner) -->
+    <section class="relative w-full h-screen overflow-hidden" id="bannerSection">
+        <img src="assets/images/pexels-mart-production-7230265.jpg" 
+             alt="Say No to Drugs Banner" 
+             class="w-full h-full object-cover" />
+        
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-red-600">Say No to Drugs</h2>
+            <p class="text-lg md:text-xl max-w-2xl">Protect your future. Protect your life. Stand against substance abuse.</p>
+        </div>
+        
+        <!-- Hover Preview Image -->
+        <img src="assets/images/SAY NO TO DRUGS.png" 
+             id="hoverPreview"
+             class="hidden lg:block w-20 h-20 object-cover absolute z-50 pointer-events-none transition-opacity duration-300 opacity-0" />
+    </section>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 text-center bg-gray-100">
+        <h2 class="text-3xl font-bold">About Us</h2>
+        <p class="mt-4 text-lg max-w-3xl mx-auto">Our mission is to raise awareness about the dangers of drug abuse and help individuals make informed decisions to avoid falling into addiction. We believe that spreading knowledge can prevent the devastating impact of drug addiction on individuals and families.</p>
+    </section>
+
+    <!-- Key Benefits Section -->
+    <section class="py-16 bg-white">
+        <h2 class="text-3xl font-bold text-center">Why Say No to Drugs?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 text-center">
+            <div class="flex flex-col items-center">
+                <img src="assets/images/health.jpg" alt="Better Health" class="w-24 h-24 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Better Health</h3>
+                <p>Drugs harm your body and mind. Say no to lead a healthier life.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="assets/images/relationships.jpg" alt="Stronger Relationships" class="w-24 h-24 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Stronger Relationships</h3>
+                <p>Drug-free living strengthens relationships with family and friends.</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="assets/images/opper.jpg" alt="Greater Opportunities" class="w-24 h-24 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Greater Opportunities</h3>
+                <p>Stay focused, pursue your dreams, and avoid the setbacks of addiction.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-red-600 text-white py-16 text-center">
+        <h2 class="text-3xl font-bold">Join the Fight Against Drugs</h2>
+        <p class="mt-4">Together, we can make a difference. Become a part of the movement today!</p>
+        <a href="contact.html" class="mt-8 inline-block bg-white text-red-600 px-6 py-3 font-semibold rounded-lg">Contact Us for Support</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-white shadow mt-10">
+        <div class="max-w-7xl mx-auto px-4 py-6 text-center text-sm text-gray-600">
+            &copy; 2025 Say No to Drugs. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- External Script -->
+    <script src="assets/js/BannerHover.js"></script>
+</body>
+</html>
